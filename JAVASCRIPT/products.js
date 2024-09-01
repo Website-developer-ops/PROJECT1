@@ -25,3 +25,5 @@ backBtn.addEventListener("click", event => {
     carsDiv.style.transform = `translatex(${tx}%)`;
 });
 
+// GIT COMMENT
+
