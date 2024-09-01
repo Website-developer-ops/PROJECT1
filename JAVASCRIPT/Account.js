@@ -16,7 +16,7 @@ let loggedIn = false;
 loginBtn.style.visibility = "hidden";
 logoutBtn.style.visibility = "hidden";
 
-
+// 
 regBtn.onclick = function(){
     if(inputs[0].value.length < 4 || inputs[0].value.length > 10 || inputs[0].value.includes(" ")){
         window.alert("First name must be between 4 - 10 characters without any empty space");
