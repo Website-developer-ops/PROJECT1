@@ -1,0 +1,110 @@
+
+body{
+    background-color: #b99999;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+}
+.home nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+    background-color: blue;
+}
+.home ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    width: 80%;
+    align-items: center;
+}
+.home a{
+    text-decoration: none;
+    
+}
+.home li{
+    color: white;
+    list-style: none;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.home li:hover{
+    text-decoration: underline;
+}
+.home .image{
+    width: 15%;
+}
+
+.home .image img{
+    cursor: pointer;
+}
+
+.home .description{
+    margin-top: 150px;
+}
+
+.home h1{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3rem;
+    justify-content: space-around;
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+}
+
+.home h1:hover,.home h2:hover{
+    background-color: yellow;
+}
+
+.home h2{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2rem;
+    justify-content: center;
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+}
+
+.home p{
+    color: black;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+.home p:hover{
+    background: gray;
+}
+.home dl{
+    text-align: center;
+    margin: 20px 0;
+}
+.home dt{
+    color: blue;
+    font-size: 2rem;
+}
+.home dt:hover{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+.home dd{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+

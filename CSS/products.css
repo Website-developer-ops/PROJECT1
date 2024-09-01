@@ -1,0 +1,126 @@
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+    background-color: blue;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    width: 80%;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    
+}
+li{
+    color: white;
+    list-style: none;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+.image{
+    width: 15%;
+}
+
+.image img{
+    cursor: pointer;
+}
+
+body{
+    background-color: gray;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    position: relative;
+    overflow-x: hidden;
+}
+.cars{
+    display: flex;
+    width: 420%;
+    height: 500px;
+}
+.car{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+}
+.car img{
+    width: 90%;
+    height: 90%;
+    margin: 5% 5%;
+    object-fit: cover;
+}
+.controls{
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    cursor: pointer;
+    color: #fff;
+    font-size: 3rem;
+    padding: 10px;
+    transition: 0.5s ease;
+    border: none;
+    border-radius: 10px;
+}
+.controls:hover{
+    opacity: 80%;
+}
+
+#backBtn{
+    left: 0;
+    background: blue;
+}
+#nextBtn{
+    right: 0;
+    background: green;
+}
+
+
+.row1{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+    width: 100%;
+}
+.cars1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+.car1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 90%;
+    padding: 0;
+}
+.car1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
