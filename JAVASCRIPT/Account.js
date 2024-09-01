@@ -16,7 +16,6 @@ let loggedIn = false;
 loginBtn.style.visibility = "hidden";
 logoutBtn.style.visibility = "hidden";
 
-// COMMENT
 
 regBtn.onclick = function(){
     if(inputs[0].value.length < 4 || inputs[0].value.length > 10 || inputs[0].value.includes(" ")){
